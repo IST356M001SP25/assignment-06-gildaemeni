@@ -22,4 +22,12 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+This assignment helped me understand how to build a multi-step ETL pipeline using APIs and pandas.
+
+I found the first two steps manageable once I understood how to process JSON responses and flatten them with `json_normalize`. The hardest part was the third step, especially handling the Azure Entity API limits. I learned that it's important to cache API responses to avoid rate limits and unnecessary re-runs.
+
+One thing I struggled with was debugging the file paths and making sure the tests could detect the cache files. I also learned how to make my code flexible by accepting either a DataFrame or a filename.
+
+Next time, I’d start earlier and make sure I fully understand the API response structure before writing code.
+
 
